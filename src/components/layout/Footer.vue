@@ -471,7 +471,7 @@ const footerLinks = [
     links: [
       {
         label: "Download CV",
-        href: "https://drive.google.com/file/d/1W4TL5lk4iNEVq67W3FMTFfqJFrwxw3Ck/view?usp=drive_link",
+        href: "https://drive.google.com/file/d/14HrgLdBtgZngss0HWvwmOi9yjCWOtUvM/view?usp=sharing",
       },
       { label: "LinkedIn", href: "https://www.linkedin.com/in/mostafa-sabry-3217693a1/" },
       { label: "Email", href: "mailto:mostafa.1988.sabry@gmail.com" },

@@ -412,9 +412,8 @@ const scrollToAbout = () => {
 
 const downloadResume = () => {
   console.log("Downloading resume...");
-
   // Direct download link from Google Drive
-  const fileId = "1W4TL5lk4iNEVq67W3FMTFfqJFrwxw3Ck";
+  const fileId = "14HrgLdBtgZngss0HWvwmOi9yjCWOtUvM";
   const directDownloadLink = `https://drive.google.com/uc?export=download&id=${fileId}`;
 
   // Create a temporary anchor element to trigger download
