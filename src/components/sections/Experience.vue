@@ -10,7 +10,7 @@
           <h1
             class="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 dark:text-white mb-4"
           >
-            {{ t("experience.professionalJourney") }}
+            Professional Journey
           </h1>
           <div
             class="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-32 h-1 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-full"
@@ -19,7 +19,7 @@
         <p
           class="text-lg sm:text-xl text-slate-600 dark:text-slate-300 max-w-3xl mx-auto mt-8"
         >
-          {{ t("experience.myCareerPathAndExperiences") }}
+          A timeline of my professional growth in the luxury hospitality industry.
         </p>
       </div>
 
@@ -116,7 +116,7 @@
                         v-if="item.isCurrent"
                         class="px-3 py-1 bg-white/20 backdrop-blur-sm rounded-full text-xs font-medium"
                       >
-                        {{ t("experience.currentRole") }}
+                        Current Role
                       </div>
                     </div>
                     <h4 class="text-lg font-semibold mb-2">
@@ -165,7 +165,7 @@
                           {{
                             item.endDate
                               ? formatDate(item.endDate)
-                              : t("experience.present")
+                              : 'Present'
                           }}</span
                         >
                       </div>
@@ -216,12 +216,12 @@
                     </div>
                   </div>
 
-                  <!-- Technologies -->
+                  <!-- Core Competencies -->
                   <div>
                     <p
                       class="text-sm font-medium text-slate-500 dark:text-slate-400 mb-3"
                     >
-                      {{ t("experience.technologiesAndTools") }}
+                      Core Competencies
                     </p>
                     <div class="flex flex-wrap gap-2">
                       <span
@@ -234,42 +234,42 @@
                     </div>
                   </div>
 
-                  <!-- Key Achievements -->
+                  <!-- Key Highlights -->
                   <div
                     class="mt-6 pt-6 border-t border-slate-200 dark:border-slate-700"
                   >
                     <p
                       class="text-sm font-medium text-slate-500 dark:text-slate-400 mb-3"
                     >
-                      {{ t("experience.keyContributions") }}
+                      Key Highlights
                     </p>
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
                       <div class="flex items-center space-x-2">
                         <div class="w-2 h-2 bg-green-500 rounded-full"></div>
                         <span
                           class="text-sm text-slate-600 dark:text-slate-300"
-                          >{{ t("experience.enterpriseBackends") }}</span
+                          >Luxury 5-Star Experience</span
                         >
                       </div>
                       <div class="flex items-center space-x-2">
                         <div class="w-2 h-2 bg-blue-500 rounded-full"></div>
                         <span
                           class="text-sm text-slate-600 dark:text-slate-300"
-                          >{{ t("experience.apiDevelopment") }}</span
+                          >VIP Guest Handling</span
                         >
                       </div>
                       <div class="flex items-center space-x-2">
                         <div class="w-2 h-2 bg-purple-500 rounded-full"></div>
                         <span
                           class="text-sm text-slate-600 dark:text-slate-300"
-                          >{{ t("experience.cloudInfrastructure") }}</span
+                          >Team Leadership</span
                         >
                       </div>
                       <div class="flex items-center space-x-2">
                         <div class="w-2 h-2 bg-orange-500 rounded-full"></div>
                         <span
                           class="text-sm text-slate-600 dark:text-slate-300"
-                          >{{ t("experience.teamCollaboration") }}</span
+                          >Operational Excellence</span
                         >
                       </div>
                     </div>
@@ -297,7 +297,7 @@
                             d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
                           ></path>
                         </svg>
-                        {{ t("experience.viewFullRoleDetails") }}
+                        View Full Role Details
                       </button>
                       <div
                         class="flex items-center space-x-2 text-sm text-slate-500 dark:text-slate-400"
@@ -315,7 +315,7 @@
                             d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
                           ></path>
                         </svg>
-                        <span>{{ t("experience.fullTimePosition") }}</span>
+                        <span>Full-Time Position</span>
                       </div>
                     </div>
                   </div>
@@ -350,7 +350,7 @@
           <h3
             class="text-2xl font-bold text-slate-900 dark:text-white mb-6 text-center"
           >
-            {{ t("experience.careerHighlights") }}
+            Career Highlights
           </h3>
           <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
             <div class="text-center">
@@ -360,7 +360,7 @@
                 {{ totalYears }}+
               </div>
               <div class="text-sm text-slate-600 dark:text-slate-400">
-                {{ t("experience.yearsExperience") }}
+                Years Experience
               </div>
             </div>
             <div class="text-center">
@@ -370,7 +370,7 @@
                 {{ experienceItems.length }}
               </div>
               <div class="text-sm text-slate-600 dark:text-slate-400">
-                {{ t("experience.companiesWorkedAt") }}
+                Establishments
               </div>
             </div>
             <div class="text-center">
@@ -380,17 +380,17 @@
                 {{ totalTechnologies }}
               </div>
               <div class="text-sm text-slate-600 dark:text-slate-400">
-                {{ t("experience.technologiesUsed") }}
+                Core Skills
               </div>
             </div>
             <div class="text-center">
               <div
                 class="text-3xl font-bold text-orange-600 dark:text-orange-400 mb-2"
               >
-                {{ totalProjects }}+
+                5★
               </div>
               <div class="text-sm text-slate-600 dark:text-slate-400">
-                {{ t("experience.projects") }}
+                Service Standards
               </div>
             </div>
           </div>
@@ -400,10 +400,10 @@
       <!-- Next Steps CTA -->
       <div class="mt-16 text-center">
         <h3 class="text-2xl font-bold text-slate-900 dark:text-white mb-4">
-          {{ t("experience.readyToBuildSomethingAmazing") }}
+          Ready to Deliver Exceptional Service?
         </h3>
         <p class="text-slate-600 dark:text-slate-400 mb-8 max-w-2xl mx-auto">
-          {{ t("experience.letCollaborateOnYourNextProject") }}
+          Let's collaborate to ensure your guests receive a world-class 5-star experience.
         </p>
         <button
           class="inline-flex items-center justify-center px-8 py-3 bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-xl hover:from-blue-700 hover:to-indigo-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
@@ -422,7 +422,7 @@
               d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
             ></path>
           </svg>
-          {{ t("experience.getInTouch") }}
+          Get In Touch
         </button>
       </div>
     </div>
@@ -430,153 +430,117 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed, onMounted, watch } from "vue";
-import { useI18n } from "vue-i18n";
+import { ref, computed, onMounted } from "vue";
 
 // State
 const activeExperience = ref("1");
-const { t, locale } = useI18n();
+
 // Experience data
 const buildExperienceItems = () => [
   {
     id: "1",
-    company: "Noor Al Mamzar Medical Center",
-    companyShort: "Noor Al Mamzar",
-    position: "Mobile Software Engineer",
-    location: t("experience.unitedArabEmirates"),
-    startDate: "2025-12",
-    endDate: undefined,
+    company: "Steigenberger Alcazar Sharm El Sheikh",
+    companyShort: "Steigenberger",
+    position: "Senior Waiter",
+    location: "Egypt",
+    startDate: "2022-01",
+    endDate: "2024-12",
     description: [
-      t("experience.mobileSoftwareEngineeringWithOdooSystem"),
-      t("experience.developedMobileSolutionsForHealthcare"),
-      t("experience.integratedMobileAppsWithOdooERP"),
-      t("experience.implementedHealthcareWorkflows"),
-      t("experience.maintainedMobileApplicationsForMedicalCenter"),
+      "Spearheaded service excellence in a luxury 5-star environment, managing high-volume sections with precision.",
+      "Acted as a key point of contact for international guests and VIPs, ensuring bespoke service and resolving complex inquiries.",
+      "Mentored and supervised junior team members, fostering a culture of professional growth and high service quality.",
+      "Maintained impeccable hygiene and safety standards, adhering to international 5-star hospitality protocols.",
     ],
     technologies: [
-      "Odoo",
-      "Python",
-      "Mobile Development",
-      "RESTful APIs",
-      "Database Integration",
-      "Healthcare Systems",
-    ],
-    isCurrent: true,
-  },
-  {
-    id: "2",
-    company: "Hera Sawda Technologies Co",
-    companyShort: "Hera Sawda",
-    position: "Back End Developer",
-    location: t("experience.unitedArabEmirates"),
-    startDate: "2025-08",
-    endDate: "2025-12",
-    description: [
-      t("experience.goMonolithServiceOrientedArchitecture"),
-      t("experience.designedRESTfulAPIsWithGin"),
-      t("experience.builtPersistenceLayersWithGORM"),
-      t("experience.containerizedServicesWithDocker"),
-      t("experience.implementedObservabilityAndCI_CD"),
-    ],
-    technologies: [
-      "Go",
-      "Gin",
-      "gRPC",
-      "Protobuf",
-      "GORM",
-      "Docker",
-      "Kubernetes",
+      "Fine Dining",
+      "VIP Service",
+      "Leadership",
+      "HACCP",
+      "Team Management",
     ],
     isCurrent: false,
   },
-  
   {
-    id: "3",
-    company: "DeepMeels",
-    companyShort: "DeepMeels",
-    position: "Mobile Sotware Engineer",
-    location: t("experience.sweden"),
-    startDate: "2023-02",
-    endDate: "2025-02",
+    id: "2",
+    company: "Savoy Sharm Hotel",
+    companyShort: "Savoy Sharm",
+    position: "Senior Waiter",
+    location: "Egypt",
+    startDate: "2020-01",
+    endDate: "2021-12",
     description: [
-      t(
-        "experience.builtAndMaintainedRESTfulAPIsAndServerlessBackendServicesUsingNextjsAPIRoutes",
-      ),
-      t("experience.integratedThirdPartyServicesAndAuthenticationSystems"),
-      t(
-        "experience.workedWithCloudServicesLikeVercelAWSAndFirebaseForHostingAndDeployment",
-      ),
-      t(
-        "experience.optimizedDatabaseOperationsAndManagedBackendLogicWithPostgreSQLMySQLAndMongoDB",
-      ),
+      "Led fine dining and buffet service operations, ensuring a consistent and premium guest experience.",
+      "Optimized team coordination during peak seasons, significantly reducing wait times and improving service efficiency.",
+      "Contributed to revenue growth through strategic upselling and deep knowledge of menu offerings and wine pairings.",
     ],
     technologies: [
-      "Next.js",
-      "Vercel",
-      "AWS",
-      "Firebase",
-      "PostgreSQL",
-      "MySQL",
-      "MongoDB",
+      "Fine Dining",
+      "Buffet Service",
+      "Upselling",
+      "Wine Pairing",
+      "Service Efficiency",
     ],
+    isCurrent: false,
+  },
+  {
+    id: "3",
+    company: "Sand Beach Hotel",
+    companyShort: "Sand Beach",
+    position: "Waiter",
+    location: "Egypt",
+    startDate: "2017-01",
+    endDate: "2020-12",
+    description: [
+      "Ensured excellent guest satisfaction through proactive service.",
+      "Supported large-scale banquet and event services.",
+      "Managed guest requests and handled table service efficiently.",
+    ],
+    technologies: ["Guest Satisfaction", "Banquet Operations", "Table Service"],
     isCurrent: false,
   },
   {
     id: "4",
-    company: "Boutiqaat",
-    companyShort: "Boutiqaat",
-    position: "Odoo Developer",
-    location: t("experience.egypt"),
-    startDate: "2023-01",
-    endDate: "2023-06",
+    company: "Sea Garden Hotel",
+    companyShort: "Sea Garden",
+    position: "Waiter",
+    location: "Egypt",
+    startDate: "2015-01",
+    endDate: "2017-12",
     description: [
-      t("experience.customizedAndExtendedOdooModules"),
-      t(
-        "experience.developedAndMaintainedCustomModulesUsingPythonXMLAndPostgreSQL",
-      ),
-      t("experience.managedDatabaseMigrationsAndPerformanceOptimization"),
+      "Managed daily dining operations and provided consistent service quality.",
+      "Collaborated with kitchen staff to ensure timely delivery of orders.",
     ],
-    technologies: ["Python", "XML", "PostgreSQL", "Odoo"],
+    technologies: ["Dining Operations", "Team Collaboration", "Order Management"],
     isCurrent: false,
   },
   {
     id: "5",
-    company: "Code Havi",
-    companyShort: "Code Havi",
-    position: "Flutter Developer",
-    location: t("experience.uae"),
-    startDate: "2021-02",
-    endDate: "2023-02",
+    company: "Isis Island Hotel",
+    companyShort: "Isis Island",
+    position: "Waiter",
+    location: "Egypt",
+    startDate: "2014-01",
+    endDate: "2015-12",
     description: [
-      t("experience.engineeredCrossPlatformMobileAppUsingFlutter"),
-      t(
-        "experience.developedAndDeployedMultipleFeatureRichFlutterApplicationsForAndroidAndIOSPlatforms",
-      ),
-      t(
-        "experience.integratedRESTfulAPIsWebSocketFirebaseServicesAndThirdPartySDKs",
-      ),
-      t(
-        "experience.implementedCleanArchitectureAndStateManagementSolutionsLikeProviderBlocAndRiverpod",
-      ),
-      t(
-        "experience.ensuredHighCodeQualityThroughTestingUnitIntegrationAndGolden",
-      ),
-      t(
-        "experience.collaboratedWithCrossFunctionalTeamsToDefineRequirementsDesignArchitecturesAndImplementFeatures",
-      ),
-      t(
-        "experience.activelyParticipatedInCodeReviewsProvidedFeedbackAndEnsuredCodeQualityStandards",
-      ),
+      "Delivered professional service in a resort environment.",
+      "Assisted in training new staff members on service protocols.",
     ],
-    technologies: [
-      "Flutter",
-      "Dart",
-      "Provider",
-      "Bloc",
-      "Riverpod",
-      "Firebase",
-      "Git",
+    technologies: ["Resort Service", "Staff Training", "Service Protocols"],
+    isCurrent: false,
+  },
+  {
+    id: "6",
+    company: "Ali Basha Hotel",
+    companyShort: "Ali Basha",
+    position: "Waiter",
+    location: "Egypt",
+    startDate: "2012-01",
+    endDate: "2014-12",
+    description: [
+      "Provided high-quality service and handled guest inquiries professionally.",
+      "Maintained a clean and organized dining area at all times.",
     ],
+    technologies: ["Guest Inquiries", "Organization", "High-Quality Service"],
     isCurrent: false,
   },
 ];
@@ -602,7 +566,7 @@ const totalTechnologies = computed(() => {
 
 const totalProjects = computed(() => {
   // Estimate based on experience
-  return 50;
+  return 12;
 });
 
 // Helper functions
@@ -629,31 +593,40 @@ const calculateDuration = (startDate: string, endDate?: string): string => {
   const remainingMonths = months % 12;
 
   if (years === 0) {
-    return `${remainingMonths} ${t("experience.month")}${remainingMonths !== 1 ? "s" : ""}`;
+    return `${remainingMonths} month${remainingMonths !== 1 ? "s" : ""}`;
   } else if (remainingMonths === 0) {
-    return `${years} ${t("experience.year")}${years !== 1 ? "s" : ""}`;
+    return `${years} year${years !== 1 ? "s" : ""}`;
   } else {
-    return `${years} ${t("experience.year")}${years !== 1 ? "s" : ""} ${remainingMonths} ${t("experience.month")}${remainingMonths !== 1 ? "s" : ""}`;
+    return `${years} year${years !== 1 ? "s" : ""} ${remainingMonths} month${remainingMonths !== 1 ? "s" : ""}`;
   }
 };
 
 const getCompanyColor = (company: string) => {
   const colors: Record<string, string> = {
-    "Hera Sawda Technologies Co": "bg-gradient-to-r from-blue-500 to-blue-600",
-    DeepMeels: "bg-gradient-to-r from-green-500 to-green-600",
-    Boutiqaat: "bg-gradient-to-r from-purple-500 to-purple-600",
-    "Code Havi": "bg-gradient-to-r from-orange-500 to-orange-600",
+    "Steigenberger Alcazar Sharm El Sheikh": "bg-gradient-to-r from-blue-500 to-blue-600",
+    "Savoy Sharm Hotel": "bg-gradient-to-r from-indigo-500 to-indigo-600",
+    "Sand Beach Hotel": "bg-gradient-to-r from-green-500 to-green-600",
+    "Sea Garden Hotel": "bg-gradient-to-r from-teal-500 to-teal-600",
+    "Isis Island Hotel": "bg-gradient-to-r from-purple-500 to-purple-600",
+    "Ali Basha Hotel": "bg-gradient-to-r from-orange-500 to-orange-600",
   };
   return colors[company] || "bg-gradient-to-r from-blue-500 to-indigo-500";
 };
 
 const getCompanyGradient = (company: string) => {
   const gradients: Record<string, string> = {
-    "Hera Sawda Technologies Co":
+    "Steigenberger Alcazar Sharm El Sheikh":
       "bg-gradient-to-r from-blue-600 via-blue-700 to-indigo-700",
-    DeepMeels: "bg-gradient-to-r from-green-600 via-green-700 to-emerald-700",
-    Boutiqaat: "bg-gradient-to-r from-purple-600 via-purple-700 to-violet-700",
-    "Code Havi": "bg-gradient-to-r from-orange-600 via-orange-700 to-amber-700",
+    "Savoy Sharm Hotel":
+      "bg-gradient-to-r from-indigo-600 via-indigo-700 to-purple-700",
+    "Sand Beach Hotel":
+      "bg-gradient-to-r from-green-600 via-green-700 to-emerald-700",
+    "Sea Garden Hotel":
+      "bg-gradient-to-r from-teal-600 via-teal-700 to-cyan-700",
+    "Isis Island Hotel":
+      "bg-gradient-to-r from-purple-600 via-purple-700 to-violet-700",
+    "Ali Basha Hotel":
+      "bg-gradient-to-r from-orange-600 via-orange-700 to-amber-700",
   };
   return gradients[company] || "bg-gradient-to-r from-blue-600 to-indigo-700";
 };
@@ -691,7 +664,7 @@ const scrollToContact = () => {
 };
 
 const downloadResume = () => {
-  console.log(t("experience.downloadingResume"));
+  console.log("Downloading resume...");
 
   // Direct download link from Google Drive
   const fileId = "1W4TL5lk4iNEVq67W3FMTFfqJFrwxw3Ck";
@@ -706,7 +679,7 @@ const downloadResume = () => {
   link.click();
   document.body.removeChild(link);
 
-  console.log(t("experience.resumeDownloadInitiated"));
+  console.log("Resume download initiated");
 };
 
 onMounted(() => {
@@ -715,13 +688,6 @@ onMounted(() => {
     activeExperience.value = "1";
   }, 100);
 });
-
-watch(
-  () => locale.value,
-  () => {
-    experienceItems.value = buildExperienceItems();
-  },
-);
 </script>
 
 <style scoped>

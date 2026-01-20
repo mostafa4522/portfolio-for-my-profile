@@ -2,7 +2,6 @@
 import { onMounted, ref } from "vue";
 import Header from "./components/layout/Header.vue";
 import Hero from "./components/sections/Hero.vue";
-import Projects from "./components/sections/Projects.vue";
 import Skills from "./components/sections/Skills.vue";
 import Experience from "./components/sections/Experience.vue";
 import Contact from "./components/sections/Contact.vue";
@@ -14,7 +13,6 @@ const themeStore = useThemeStore();
 // Animation states for each section
 const sectionAnimations = ref({
   hero: false,
-  projects: false,
   skills: false,
   experience: false,
   contact: false,
@@ -29,11 +27,8 @@ onMounted(() => {
     sectionAnimations.value.hero = true;
   }, 100);
   setTimeout(() => {
-    sectionAnimations.value.projects = true;
-  }, 300);
-  setTimeout(() => {
     sectionAnimations.value.skills = true;
-  }, 500);
+  }, 300);
   setTimeout(() => {
     sectionAnimations.value.experience = true;
   }, 700);
@@ -58,18 +53,9 @@ onMounted(() => {
 
       <div
         :class="{
-          'animate-slide-in-up animate-fade-in': sectionAnimations.projects,
-        }"
-        class="delay-200"
-      >
-        <Projects />
-      </div>
-
-      <div
-        :class="{
           'animate-slide-in-up animate-fade-in': sectionAnimations.skills,
         }"
-        class="delay-300"
+        class="delay-200"
       >
         <Skills />
       </div>

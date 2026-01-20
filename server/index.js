@@ -3,8 +3,8 @@ const http = require("http");
 const PORT = process.env.PORT || 3001;
 const RESEND_API_KEY = process.env.RESEND_API_KEY;
 const CONTACT_TO_EMAIL =
-  process.env.CONTACT_TO_EMAIL || "eng.khaled4522@gmail.com";
-const FROM_DISPLAY = "Khaled Portfolio <onboarding@resend.dev>";
+  process.env.CONTACT_TO_EMAIL || "mostafa.1988.sabry@gmail.com";
+const FROM_DISPLAY = "Mostafa Portfolio <onboarding@resend.dev>";
 
 const sendJSON = (res, status, data) => {
   res.writeHead(status, {

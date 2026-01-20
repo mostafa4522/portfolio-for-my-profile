@@ -5,7 +5,7 @@ import { ref, watch } from "vue";
 import { useI18n } from "vue-i18n";
 import { useRouter } from "vue-router";
 const I18N_CACHE_NAME = "i18n_lang";
-function setPageTitle(title) {
+function setPageTitle(title: string) {
   if (title) document.title = title;
 }
 // ElementPlus
@@ -48,7 +48,7 @@ export function getCacheLang() {
  * Set the cached language
  * @param lang Language to cache
  */
-export function setCacheLang(lang) {
+export function setCacheLang(lang: string) {
   if (!lang) {
     localStorage.removeItem(I18N_CACHE_NAME);
     return;
@@ -60,7 +60,7 @@ export function setCacheLang(lang) {
  * Get the title of the route
  * @param route Route object
  */
-export function getRouteTitle(route) {
+export function getRouteTitle(route: any) {
   // const lang = route.meta?.lang ?? {};
   const lang = route.meta?.lang ? JSON.parse(route.meta.lang) : {};
   return lang[getCacheLang()] ?? route.meta?.title;

@@ -10,7 +10,7 @@ export const zh_TW = {
     connect: "與我聯繫：",
     toggleMenu: "切換選單",
     backendMobileEngineer: "後端 & 移動工程師",
-    khaledMohamed: "哈立德·穆罕默德",
+    khaledMohamed: "穆斯塔法·穆罕默德·艾哈邁德",
     passionateAbout:
       "对使用 Go、Flutter 和现代云技术构建可扩展解决方案充满热情。让我们一起创建一个 amazing 东西。",
     connectWithMe: "与我联系：",

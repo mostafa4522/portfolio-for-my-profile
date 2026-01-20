@@ -10,7 +10,7 @@ export const ar = {
     connect: "تواصل معي:",
     toggleMenu: "تبديل القائمة",
     backendMobileEngineer: "مهندس برمجيات و تطبيقات المحمولة",
-    khaledMohamed: "خالد محمد",
+    khaledMohamed: "مصطفى محمد أحمد",
     passionateAbout:
       "مُحبُّ من خلال بناء حلول قابلة للتوسع باستخدام Go, Flutter, و технологии السحابة الحديثة. دعونا نجعل شيء مثير للاهتمام معًا.",
     connectWithMe: "تواصل معي:",
