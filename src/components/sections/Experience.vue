@@ -667,8 +667,7 @@ const downloadResume = () => {
   console.log("Downloading resume...");
 
   // Direct download link from Google Drive
-  const fileId = "1W4TL5lk4iNEVq67W3FMTFfqJFrwxw3Ck";
-  const directDownloadLink = `https://drive.google.com/uc?export=download&id=${fileId}`;
+  const directDownloadLink = `https://drive.google.com/file/d/14HrgLdBtgZngss0HWvwmOi9yjCWOtUvM/view?usp=sharing`;
 
   // Create a temporary anchor element to trigger download
   const link = document.createElement("a");
