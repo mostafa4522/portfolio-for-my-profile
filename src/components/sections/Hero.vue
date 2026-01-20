@@ -10,7 +10,7 @@
         :key="i"
         class="absolute rounded-full opacity-10"
         :class="getParticleColor(i)"
-        :style="getParticleStyle(i)"
+        :style="getParticleStyle()"
       />
     </div>
 
@@ -23,67 +23,6 @@
       <div
         class="absolute bottom-10 right-10 w-96 h-96 bg-purple-300/20 dark:bg-purple-700/20 rounded-full blur-3xl"
       />
-
-      <!-- Floating Tech Icons -->
-      <div class="absolute top-1/4 left-1/4 animate-float-1">
-        <div
-          class="w-12 h-12 bg-white/10 dark:bg-white/5 backdrop-blur-sm rounded-2xl flex items-center justify-center"
-        >
-          <svg
-            class="w-6 h-6 text-blue-500"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
-            ></path>
-          </svg>
-        </div>
-      </div>
-
-      <div class="absolute top-1/3 right-1/4 animate-float-2">
-        <div
-          class="w-12 h-12 bg-white/10 dark:bg-white/5 backdrop-blur-sm rounded-2xl flex items-center justify-center"
-        >
-          <svg
-            class="w-6 h-6 text-green-500"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"
-            ></path>
-          </svg>
-        </div>
-      </div>
-
-      <div class="absolute bottom-1/3 left-1/3 animate-float-3">
-        <div
-          class="w-12 h-12 bg-white/10 dark:bg-white/5 backdrop-blur-sm rounded-2xl flex items-center justify-center"
-        >
-          <svg
-            class="w-6 h-6 text-orange-500"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01"
-            ></path>
-          </svg>
-        </div>
-      </div>
     </div>
 
     <!-- Main Content -->
@@ -98,7 +37,7 @@
             <span class="w-2 h-2 bg-green-500 rounded-full animate-pulse" />
             <span
               class="text-sm font-medium text-slate-700 dark:text-slate-300"
-              >{{ t("hero.availableForOpportunities") }}</span
+              >Available for New Opportunities</span
             >
           </div>
 
@@ -106,13 +45,11 @@
           <h1
             class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight"
           >
-            <span class="block text-slate-900 dark:text-white">{{
-              t("hero.buildingThe")
-            }}</span>
+            <span class="block text-slate-900 dark:text-white">Delivering 5-Star</span>
             <span
               class="bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent"
             >
-              {{ t("hero.futureOfTech") }}
+              Guest Experiences
             </span>
           </h1>
 
@@ -120,24 +57,24 @@
           <p
             class="text-lg sm:text-xl md:text-2xl text-slate-600 dark:text-slate-300 font-light max-w-2xl"
           >
-            {{ t("hero.backendMobileEngineer") }}
+            Senior Waiter | Hospitality Professional
             <span class="font-semibold text-blue-600 dark:text-blue-400"
-              >Go</span
+              >Fine Dining</span
             >,
-            <span class="font-semibold text-green-600 dark:text-green-400">{{
-              t("hero.Flutter")
-            }}</span
-            >, {{ t("hero.and") }}
-            <span class="font-semibold text-purple-600 dark:text-purple-400">{{
-              t("hero.CloudTechnologies")
-            }}</span>
+            <span class="font-semibold text-green-600 dark:text-green-400">
+              VIP Service
+            </span
+            >, and
+            <span class="font-semibold text-purple-600 dark:text-purple-400">
+              Operational Excellence
+            </span>
           </p>
 
           <!-- Description -->
           <p
             class="text-base text-slate-500 dark:text-slate-400 leading-relaxed max-w-2xl"
           >
-            {{ t("hero.description") }}
+            Dedicated hospitality professional with over 12 years of experience in luxury 5-star hotels. Expert in floor leadership, section management, and delivering high-end guest experiences.
           </p>
 
           <!-- Stats -->
@@ -146,20 +83,20 @@
               <div
                 class="text-2xl sm:text-3xl font-bold text-blue-600 dark:text-blue-400"
               >
-                3+
+                12+
               </div>
               <div class="text-sm text-slate-500 dark:text-slate-400">
-                {{ t("hero.yearsExperience") }}
+                Years Experience
               </div>
             </div>
             <div class="text-center">
               <div
                 class="text-2xl sm:text-3xl font-bold text-green-600 dark:text-green-400"
               >
-                50+
+                5-Star
               </div>
               <div class="text-sm text-slate-500 dark:text-slate-400">
-                {{ t("hero.projects") }}
+                Standards
               </div>
             </div>
             <div class="text-center">
@@ -169,17 +106,17 @@
                 100%
               </div>
               <div class="text-sm text-slate-500 dark:text-slate-400">
-                {{ t("hero.satisfaction") }}
+                Satisfaction
               </div>
             </div>
             <div class="text-center">
               <div
                 class="text-2xl sm:text-3xl font-bold text-pink-600 dark:text-pink-400"
               >
-                {{ t("hero.uae") }}
+                Dubai
               </div>
               <div class="text-sm text-slate-500 dark:text-slate-400">
-                {{ t("hero.basedIn") }}
+                Based In
               </div>
             </div>
           </div>
@@ -188,39 +125,6 @@
           <div class="flex flex-wrap gap-4 pt-4">
             <button
               class="group inline-flex items-center px-6 py-3 bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-xl hover:from-blue-700 hover:to-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all duration-300 transform hover:-translate-y-1 shadow-lg hover:shadow-xl"
-              @click="scrollToProjects"
-            >
-              <svg
-                class="w-5 h-5 mr-2 group-hover:rotate-12 transition-transform"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
-                ></path>
-              </svg>
-              {{ t("hero.viewProjects") }}
-              <svg
-                class="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M14 5l7 7m0 0l-7 7m7-7H3"
-                ></path>
-              </svg>
-            </button>
-
-            <button
-              class="group inline-flex items-center px-6 py-3 bg-white/10 dark:bg-white/5 backdrop-blur-sm text-slate-700 dark:text-slate-300 rounded-xl hover:bg-white/20 dark:hover:bg-white/10 border border-slate-300 dark:border-slate-700 focus:outline-none focus:ring-2 focus:ring-slate-500 focus:ring-offset-2 transition-all duration-300 transform hover:-translate-y-1"
               @click="scrollToContact"
             >
               <svg
@@ -236,7 +140,7 @@
                   d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                 ></path>
               </svg>
-              {{ t("hero.getInTouch") }}
+              Get In Touch
             </button>
 
             <button
@@ -256,29 +160,18 @@
                   d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
                 ></path>
               </svg>
-              {{ t("hero.downloadCV") }}
+              Download CV
             </button>
           </div>
 
           <!-- Social Links -->
           <div class="flex items-center space-x-4 pt-4">
             <p class="text-sm text-slate-500 dark:text-slate-400">
-              {{ t("hero.connectWithMe") }}:
+              Connect With Me:
             </p>
             <div class="flex space-x-3">
               <a
-                href="https://github.com/mo7amed4522"
-                target="_blank"
-                class="p-2 text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white hover:bg-white dark:hover:bg-slate-800 rounded-lg transition-all duration-300"
-              >
-                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                  <path
-                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
-                  />
-                </svg>
-              </a>
-              <a
-                href="https://www.linkedin.com/in/khaled-mohamed-abdou-318378254/"
+                href="https://www.linkedin.com/in/mostafa-sabry-3217693a1/"
                 target="_blank"
                 class="p-2 text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-white dark:hover:bg-slate-800 rounded-lg transition-all duration-300"
               >
@@ -324,12 +217,12 @@
                   <div
                     class="text-white text-6xl sm:text-7xl lg:text-8xl font-bold"
                   >
-                    KM
+                    MM
                   </div>
                   <div
                     class="text-white/80 text-center mt-4 text-sm sm:text-base font-medium"
                   >
-                    {{ t("hero.backendMobileEngineer") }}
+                    Senior Waiter
                   </div>
                 </div>
               </div>
@@ -344,13 +237,13 @@
                   />
                   <span
                     class="text-xs font-medium text-slate-700 dark:text-slate-300"
-                    >{{ t("hero.currentlyatHeraSawda") }}</span
+                    >Currently in Dubai</span
                   >
                 </div>
               </div>
             </div>
 
-            <!-- Floating Tech Badges -->
+            <!-- Floating Badges -->
             <div class="absolute -top-4 -left-4 animate-float-2">
               <div class="bg-white dark:bg-slate-800 p-3 rounded-xl shadow-lg">
                 <svg
@@ -363,7 +256,7 @@
                     stroke-linecap="round"
                     stroke-linejoin="round"
                     stroke-width="2"
-                    d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01"
+                    d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                   ></path>
                 </svg>
               </div>
@@ -381,7 +274,7 @@
                     stroke-linecap="round"
                     stroke-linejoin="round"
                     stroke-width="2"
-                    d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"
+                    d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
                   ></path>
                 </svg>
               </div>
@@ -399,26 +292,26 @@
                     stroke-linecap="round"
                     stroke-linejoin="round"
                     stroke-width="2"
-                    d="M8 14v3m4-3v3m4-3v3M3 21h18M3 10h18M3 7l9-4 9 4M4 10h16v11H4V10z"
+                    d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                   ></path>
                 </svg>
               </div>
             </div>
           </div>
 
-          <!-- Tech Stack Bar -->
+          <!-- Skills Stack Bar -->
           <div
             class="mt-12 bg-white/80 dark:bg-slate-800/80 backdrop-blur-sm rounded-2xl p-6 shadow-xl"
           >
             <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-4">
-              {{ t("hero.techStack") }}
+              Core Competencies
             </h3>
             <div class="grid grid-cols-3 gap-3">
               <div
                 class="text-center p-3 bg-blue-50 dark:bg-blue-900/30 rounded-lg"
               >
                 <div class="text-blue-600 dark:text-blue-400 font-bold text-sm">
-                  Go
+                  Fine Dining
                 </div>
               </div>
               <div
@@ -427,7 +320,7 @@
                 <div
                   class="text-green-600 dark:text-green-400 font-bold text-sm"
                 >
-                  Flutter
+                  Hospitality
                 </div>
               </div>
               <div
@@ -436,14 +329,14 @@
                 <div
                   class="text-purple-600 dark:text-purple-400 font-bold text-sm"
                 >
-                  Docker
+                  Leadership
                 </div>
               </div>
               <div
                 class="text-center p-3 bg-pink-50 dark:bg-pink-900/30 rounded-lg"
               >
                 <div class="text-pink-600 dark:text-pink-400 font-bold text-sm">
-                  AWS
+                  Service
                 </div>
               </div>
               <div
@@ -452,7 +345,7 @@
                 <div
                   class="text-orange-600 dark:text-orange-400 font-bold text-sm"
                 >
-                  K8s
+                  Upselling
                 </div>
               </div>
               <div
@@ -461,7 +354,7 @@
                 <div
                   class="text-indigo-600 dark:text-indigo-400 font-bold text-sm"
                 >
-                  Postgres
+                  Hygiene
                 </div>
               </div>
             </div>
@@ -498,21 +391,12 @@
 
 <script setup lang="ts">
 import { onMounted, ref } from "vue";
-import { useI18n } from "vue-i18n";
 
 // Animation states
 const animatedParticles = ref(false);
-const { t } = useI18n();
 
 const scrollToContact = () => {
   const element = document.getElementById("contact");
-  if (element) {
-    element.scrollIntoView({ behavior: "smooth" });
-  }
-};
-
-const scrollToProjects = () => {
-  const element = document.getElementById("projects");
   if (element) {
     element.scrollIntoView({ behavior: "smooth" });
   }
@@ -527,7 +411,7 @@ const scrollToAbout = () => {
 };
 
 const downloadResume = () => {
-  console.log(t("hero.downloadingResume"));
+  console.log("Downloading resume...");
 
   // Direct download link from Google Drive
   const fileId = "1W4TL5lk4iNEVq67W3FMTFfqJFrwxw3Ck";
@@ -542,7 +426,7 @@ const downloadResume = () => {
   link.click();
   document.body.removeChild(link);
 
-  console.log(t("hero.resumeDownloadInitiated"));
+  console.log("Resume download initiated");
 };
 
 // Generate particle styles
@@ -558,7 +442,7 @@ const getParticleColor = (index: number) => {
   return colors[index % colors.length];
 };
 
-const getParticleStyle = (index: number) => {
+const getParticleStyle = () => {
   const size = Math.random() * 4 + 1;
   const duration = Math.random() * 10 + 10;
   const delay = Math.random() * 5;
@@ -665,7 +549,7 @@ onMounted(() => {
   animation: spin-reverse linear infinite;
 }
 
-/* Glass morphism effect */
+/* Glass morphs effect */
 .glass {
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);

@@ -9,12 +9,12 @@
         <h1
           class="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 dark:text-white mb-4"
         >
-          {{ $t("skils.technicalSkillsDashboard") }}
+          Professional Skills Dashboard
         </h1>
         <p
           class="text-lg sm:text-xl text-slate-600 dark:text-slate-300 max-w-3xl mx-auto"
         >
-          {{ $t("skils.interactiveVisualization") }}
+          A comprehensive overview of my hospitality expertise and core competencies.
         </p>
 
         <!-- View Mode Toggle -->
@@ -44,7 +44,7 @@
                   d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
                 ></path>
               </svg>
-              {{ $t("skils.dashboard") }}
+              Dashboard
             </button>
             <button
               :class="[
@@ -68,7 +68,7 @@
                   d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
                 ></path>
               </svg>
-              {{ $t("skils.charts") }}
+              Charts
             </button>
             <button
               :class="[
@@ -92,7 +92,7 @@
                   d="M4 6h16M4 10h16M4 14h16M4 18h16"
                 ></path>
               </svg>
-              {{ $t("skils.list") }}
+              List
             </button>
           </div>
         </div>
@@ -108,7 +108,7 @@
             <div class="flex items-center justify-between">
               <div>
                 <p class="text-sm opacity-90 font-medium">
-                  {{ $t("skils.totalSkills") }}
+                  Total Skills
                 </p>
                 <p class="text-3xl font-bold mt-2">{{ totalSkills }}</p>
               </div>
@@ -129,7 +129,7 @@
             <div class="mt-4 text-sm opacity-90">
               <span class="inline-flex items-center">
                 <span class="w-2 h-2 bg-green-400 rounded-full mr-2"></span>
-                +{{ newSkillsThisYear }} {{ $t("skils.year") }}
+                +{{ newSkillsThisYear }} New This Year
               </span>
             </div>
           </div>
@@ -140,7 +140,7 @@
             <div class="flex items-center justify-between">
               <div>
                 <p class="text-sm opacity-90 font-medium">
-                  {{ $t("skils.avgProficiency") }}
+                  Avg Proficiency
                 </p>
                 <p class="text-3xl font-bold mt-2">{{ averageProficiency }}%</p>
               </div>
@@ -174,7 +174,7 @@
             <div class="flex items-center justify-between">
               <div>
                 <p class="text-sm opacity-90 font-medium">
-                  {{ $t("skils.categories") }}
+                  Categories
                 </p>
                 <p class="text-3xl font-bold mt-2">{{ skillCategories }}</p>
               </div>
@@ -193,15 +193,9 @@
               </svg>
             </div>
             <div class="mt-4 flex flex-wrap gap-2">
-              <span class="px-2 py-1 bg-white/20 rounded-lg text-xs">{{
-                $t("skils.backend")
-              }}</span>
-              <span class="px-2 py-1 bg-white/20 rounded-lg text-xs">{{
-                $t("skils.frontend")
-              }}</span>
-              <span class="px-2 py-1 bg-white/20 rounded-lg text-xs">{{
-                $t("skils.mobile")
-              }}</span>
+              <span class="px-2 py-1 bg-white/20 rounded-lg text-xs">Service</span>
+              <span class="px-2 py-1 bg-white/20 rounded-lg text-xs">Guest Relations</span>
+              <span class="px-2 py-1 bg-white/20 rounded-lg text-xs">Operations</span>
             </div>
           </div>
 
@@ -211,9 +205,9 @@
             <div class="flex items-center justify-between">
               <div>
                 <p class="text-sm opacity-90 font-medium">
-                  {{ $t("skils.yearsExperience") }}
+                  Years Experience
                 </p>
-                <p class="text-3xl font-bold mt-2">4+</p>
+                <p class="text-3xl font-bold mt-2">12+</p>
               </div>
               <svg
                 class="w-10 h-10 opacity-80"
@@ -230,9 +224,7 @@
               </svg>
             </div>
             <div class="mt-4 text-sm opacity-90">
-              <span>{{
-                $t("skils.MostExperiencedInMobileApplicationAndBackend")
-              }}</span>
+              <span>Experienced in luxury 5-star hospitality.</span>
             </div>
           </div>
         </div>
@@ -243,12 +235,10 @@
           <div class="bg-white dark:bg-slate-800 rounded-2xl shadow-xl p-6">
             <div class="flex items-center justify-between mb-6">
               <h2 class="text-xl font-bold text-slate-900 dark:text-white">
-                {{ $t("skils.technicalSkillsDashboard") }}
+                Skill Proficiency
               </h2>
               <div class="flex items-center space-x-2">
-                <span class="text-sm text-slate-500 dark:text-slate-400">{{
-                  $t("skils.stackedView")
-                }}</span>
+                <span class="text-sm text-slate-500 dark:text-slate-400">Stacked View</span>
                 <div class="w-3 h-3 rounded-full bg-blue-500"></div>
               </div>
             </div>
@@ -266,12 +256,10 @@
           <div class="bg-white dark:bg-slate-800 rounded-2xl shadow-xl p-6">
             <div class="flex items-center justify-between mb-6">
               <h2 class="text-xl font-bold text-slate-900 dark:text-white">
-                {{ $t("skils.skillDistribution") }}
+                Skill Distribution
               </h2>
               <div class="flex items-center space-x-2">
-                <span class="text-sm text-slate-500 dark:text-slate-400">{{
-                  $t("skils.byCategory")
-                }}</span>
+                <span class="text-sm text-slate-500 dark:text-slate-400">By Category</span>
                 <div class="w-3 h-3 rounded-full bg-purple-500"></div>
               </div>
             </div>
@@ -319,7 +307,7 @@
               <div
                 class="flex items-center justify-between text-sm text-slate-600 dark:text-slate-400 mb-1"
               >
-                <span>{{ $t("skils.overallProficiency") }}</span>
+                <span>Overall Proficiency</span>
                 <span>{{ Math.round(categoryAverage(category.skills)) }}%</span>
               </div>
               <div
@@ -374,7 +362,7 @@
                   v-if="category.skills.length > 3"
                   class="px-2 py-1 bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-400 rounded-lg text-xs font-medium"
                 >
-                  +{{ category.skills.length - 3 }} {{ $t("skils.more") }}
+                  +{{ category.skills.length - 3 }} More
                 </span>
               </div>
             </div>
@@ -392,12 +380,10 @@
             <h2
               class="text-xl sm:text-2xl font-bold text-slate-900 dark:text-white"
             >
-              {{ $t("skils.technicalSkillsDashboard") }}
+              Skill Proficiency Analysis
             </h2>
             <div class="flex items-center space-x-2">
-              <span class="text-sm text-slate-500 dark:text-slate-400">{{
-                $t("skils.interactiveBarChart")
-              }}</span>
+              <span class="text-sm text-slate-500 dark:text-slate-400">Interactive Bar Chart</span>
               <div class="w-3 h-3 rounded-full bg-blue-500"></div>
             </div>
           </div>
@@ -411,7 +397,7 @@
           </div>
           <div class="mt-4 text-sm text-slate-500 dark:text-slate-400">
             <p>
-              {{ $t("skils.chartDescription") }}
+              This chart visualizes my core competencies in the hospitality industry, reflecting over 12 years of professional experience.
             </p>
           </div>
         </div>
@@ -422,12 +408,10 @@
           <div class="bg-white dark:bg-slate-800 rounded-2xl shadow-2xl p-6">
             <div class="flex items-center justify-between mb-6">
               <h2 class="text-xl font-bold text-slate-900 dark:text-white">
-                {{ $t("skils.skillsComparison") }}
+                Skills Comparison
               </h2>
               <div class="flex items-center space-x-2">
-                <span class="text-sm text-slate-500 dark:text-slate-400">{{
-                  $t("skils.radarAnalysis")
-                }}</span>
+                <span class="text-sm text-slate-500 dark:text-slate-400">Radar Analysis</span>
                 <div class="w-3 h-3 rounded-full bg-purple-500"></div>
               </div>
             </div>
@@ -445,12 +429,10 @@
           <div class="bg-white dark:bg-slate-800 rounded-2xl shadow-2xl p-6">
             <div class="flex items-center justify-between mb-6">
               <h2 class="text-xl font-bold text-slate-900 dark:text-white">
-                {{ $t("skils.skillGrowth") }}
+                Professional Growth
               </h2>
               <div class="flex items-center space-x-2">
-                <span class="text-sm text-slate-500 dark:text-slate-400">{{
-                  $t("skils.timeline")
-                }}</span>
+                <span class="text-sm text-slate-500 dark:text-slate-400">Timeline</span>
                 <div class="w-3 h-3 rounded-full bg-green-500"></div>
               </div>
             </div>
@@ -495,7 +477,7 @@
             ]"
             @click="activeCategory = 'all'"
           >
-            {{ $t("skils.allSkills") }}
+            All Skills
             <span class="ml-2 px-1.5 py-0.5 bg-white/20 rounded text-xs">
               {{ totalSkills }}
             </span>
@@ -507,7 +489,7 @@
           <!-- Skills List -->
           <div class="space-y-6">
             <h2 class="text-2xl font-bold text-slate-900 dark:text-white mb-6">
-              {{ $t("skils.detailedSkills") }}
+              Detailed Competencies
             </h2>
             <div
               v-for="(category, index) in filteredCategories"
@@ -531,8 +513,8 @@
                       {{ category.title }}
                     </h3>
                     <p class="text-sm text-slate-600 dark:text-slate-400">
-                      {{ $t("skils.totalSkills", category.skills.length) }}
-                      • {{ $t("skils.avg") }}:
+                      {{ category.skills.length }} Skills
+                      • Avg:
                       {{ Math.round(categoryAverage(category.skills)) }}%
                     </p>
                   </div>
@@ -577,7 +559,7 @@
                         v-if="skill.years"
                         class="text-xs px-2 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded-full"
                       >
-                        {{ $t("skils.yearsExperience", skill.years) }}
+                        {{ skill.years }} years
                       </span>
                       <span
                         class="text-sm font-bold"
@@ -610,7 +592,7 @@
                   v-if="category.skills.length > 6"
                   class="px-3 py-1.5 bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-400 rounded-lg text-xs font-medium"
                 >
-                  +{{ category.skills.length - 6 }} {{ $t("skils.more") }}
+                  +{{ category.skills.length - 6 }} More
                 </span>
               </div>
             </div>
@@ -622,7 +604,7 @@
               <h2
                 class="text-2xl font-bold text-slate-900 dark:text-white mb-6"
               >
-                {{ $t("skils.proficiencySummary") }}
+                Proficiency Summary
               </h2>
               <div class="space-y-6">
                 <div
@@ -664,7 +646,7 @@
                 class="mt-8 p-4 bg-gradient-to-r from-slate-50 to-blue-50 dark:from-slate-800 dark:to-slate-900 rounded-xl"
               >
                 <h3 class="font-bold text-slate-900 dark:text-white mb-4">
-                  {{ $t("skils.skillLevelLegend") }}
+                  Skill Level Legend
                 </h3>
                 <div class="grid grid-cols-2 gap-4">
                   <div
@@ -675,10 +657,10 @@
                       <p
                         class="text-sm font-medium text-slate-900 dark:text-white"
                       >
-                        {{ $t("skils.expert", [90, 100]) }}
+                        Expert (90%+)
                       </p>
                       <p class="text-xs text-slate-600 dark:text-slate-400">
-                        {{ $t("skils.masterLevelProficiency") }}
+                        Master level proficiency
                       </p>
                     </div>
                   </div>
@@ -690,10 +672,10 @@
                       <p
                         class="text-sm font-medium text-slate-900 dark:text-white"
                       >
-                        {{ $t("skils.advanced", [75, 89]) }}
+                        Advanced (75-89%)
                       </p>
                       <p class="text-xs text-slate-600 dark:text-slate-400">
-                        {{ $t("skils.professionalExperience") }}
+                        Professional experience
                       </p>
                     </div>
                   </div>
@@ -705,10 +687,10 @@
                       <p
                         class="text-sm font-medium text-slate-900 dark:text-white"
                       >
-                        {{ $t("skils.intermediate", [60, 74]) }}
+                        Intermediate (60-74%)
                       </p>
                       <p class="text-xs text-slate-600 dark:text-slate-400">
-                        {{ $t("skils.workingKnowledge") }}
+                        Working knowledge
                       </p>
                     </div>
                   </div>
@@ -720,10 +702,10 @@
                       <p
                         class="text-sm font-medium text-slate-900 dark:text-white"
                       >
-                        {{ $t("skils.learning", [60, 90]) }}
+                        Learning
                       </p>
                       <p class="text-xs text-slate-600 dark:text-slate-400">
-                        {{ $t("skils.currentlyLearning") }}
+                        Currently improving
                       </p>
                     </div>
                   </div>
@@ -736,7 +718,7 @@
               class="bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl p-6 text-white"
             >
               <h3 class="text-xl font-bold mb-4">
-                {{ $t("skils.topSkills") }}
+                Top Skills
               </h3>
               <div class="space-y-3">
                 <div
@@ -761,7 +743,6 @@
 
 <script setup>
 import { ref, computed, onMounted, watch, defineAsyncComponent } from "vue";
-import { useI18n } from "vue-i18n";
 const echartsLoaded = ref(false);
 const VChart = defineAsyncComponent(() => import("vue-echarts"));
 
@@ -797,56 +778,47 @@ const loadCharts = async () => {
 const activeTab = ref("dashboard");
 const expandedCategories = ref([0]);
 const activeCategory = ref("all");
-const { t, locale } = useI18n();
 
 const buildSkills = () => [
   {
-    title: t("skils.backendDevelopment"),
+    title: "Service",
     color: "blue",
     skills: [
-      { name: "Go", proficiency: 95, years: 3 },
-      { name: "Node.js", proficiency: 90, years: 3 },
-      { name: "Python", proficiency: 85, years: 2 },
-      { name: "REST APIs", proficiency: 92, years: 4 },
-      { name: "gRPC", proficiency: 88, years: 4 },
-      { name: "PostgreSQL", proficiency: 82, years: 4 },
-      { name: "Redis", proficiency: 85, years: 4 },
+      { name: "Fine Dining", proficiency: 95, years: 12 },
+      { name: "Buffet Service", proficiency: 90, years: 12 },
+      { name: "Upselling", proficiency: 85, years: 10 },
+      { name: "Banquet Operations", proficiency: 88, years: 12 },
+      { name: "HACCP Standards", proficiency: 92, years: 12 },
+      { name: "Wine Pairing", proficiency: 80, years: 8 },
     ],
   },
   {
-    title: t("skils.frontendDevelopment"),
+    title: "Guest Relations",
     color: "green",
     skills: [
-      { name: "Vue.js", proficiency: 95, years: 2 },
-      { name: "React", proficiency: 85, years: 1 },
-      { name: "TypeScript", proficiency: 90, years: 3 },
-      { name: "JavaScript", proficiency: 95, years: 3 },
-      { name: "Tailwind CSS", proficiency: 92, years: 1 },
-      { name: "Vite", proficiency: 88, years: 3 },
-      { name: "Next.js", proficiency: 80, years: 2 },
+      { name: "Guest Satisfaction", proficiency: 98, years: 12 },
+      { name: "Conflict Resolution", proficiency: 90, years: 12 },
+      { name: "VIP Handling", proficiency: 95, years: 10 },
+      { name: "Communication", proficiency: 95, years: 12 },
+      { name: "Team Leadership", proficiency: 88, years: 5 },
     ],
   },
   {
-    title: t("skils.devOpsAndCloud"),
-    color: "purple",
-    skills: [
-      { name: "Docker", proficiency: 85, years: 4 },
-      { name: "AWS", proficiency: 80, years: 3 },
-      { name: "CI/CD", proficiency: 88, years: 4 },
-      { name: "Kubernetes", proficiency: 75, years: 2 },
-      { name: "Linux", proficiency: 90, years: 3 },
-      { name: "Terraform", proficiency: 72, years: 2 },
-      { name: "Git", proficiency: 95, years: 8 },
-    ],
-  },
-  {
-    title: t("skils.mobileDevelopment"),
+    title: "Operations",
     color: "orange",
     skills: [
-      { name: "Flutter", proficiency: 88, years: 5 },
-      { name: "React Native", proficiency: 85, years: 1 },
-      { name: "Dart", proficiency: 90, years: 5 },
-      { name: "Firebase", proficiency: 82, years: 3 },
+      { name: "Time Management", proficiency: 95, years: 12 },
+      { name: "Multi-tasking", proficiency: 92, years: 12 },
+      { name: "Section Management", proficiency: 90, years: 8 },
+      { name: "Order Systems", proficiency: 95, years: 12 },
+    ],
+  },
+  {
+    title: "Languages",
+    color: "purple",
+    skills: [
+      { name: "Arabic (Native)", proficiency: 100, years: 30 },
+      { name: "English (Fluent)", proficiency: 90, years: 15 },
     ],
   },
 ];
@@ -885,7 +857,14 @@ const filteredCategories = computed(() => {
 // Chart options
 const barChartOption = computed(() => {
   const categories = skillsData.value.map((cat) => cat.title);
-  const skills = ["Go", "Vue.js", "Docker", "Flutter", "Node.js", "React"];
+  const skills = [
+    "Fine Dining",
+    "VIP Handling",
+    "Team Leadership",
+    "Section Management",
+    "Guest Satisfaction",
+    "HACCP Standards",
+  ];
 
   const seriesData = categories.map((category, catIndex) => {
     const colorMap = {
@@ -1378,12 +1357,12 @@ const getActiveFilterClass = (color) => {
 
 const getCategoryIcon = (title) => {
   const icons = {
-    "Backend Development": `<svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01"></path></svg>`,
-    "Frontend Development": `<svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>`,
-    "DevOps & Cloud": `<svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4 4 0 003 15z"></path></svg>`,
-    "Mobile Development": `<svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>`,
+    "Service": `<svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>`,
+    "Guest Relations": `<svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>`,
+    "Operations": `<svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>`,
+    "Languages": `<svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129"></path></svg>`,
   };
-  return icons[title] || icons["Backend Development"];
+  return icons[title] || icons["Service"];
 };
 
 const categoryAverage = (skills) => {
@@ -1415,13 +1394,6 @@ onMounted(() => {
 watch(activeTab, (val) => {
   if (val === "dashboard" || val === "charts") loadCharts();
 });
-
-watch(
-  () => locale.value,
-  () => {
-    skillsData.value = buildSkills();
-  },
-);
 </script>
 
 <style scoped>

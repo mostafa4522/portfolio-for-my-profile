@@ -243,7 +243,7 @@ export const SOCIAL_LINKS = [
   },
   {
     platform: "Email",
-    url: "mailto:eng.khaled4522@gmail.com",
+    url: "mailto:mostafa.1988.sabry@gmail.com",
     icon: "Mail",
     ariaLabel: "Send Email",
   },
@@ -256,9 +256,8 @@ export const SOCIAL_LINKS = [
 ];
 
 export const CONTACT_INFO = {
-  name: "Khaled Mohamed",
-  title: "Backend & Mobile Engineer",
+  name: "Mostafa Mohamed Ahmed",
+  title: "Hospitality Professional",
   location: "Dubai, UAE",
-  email: "eng.khaled4522@gmail.com",
-  github: "mo7amed4522",
+  email: "mostafa.1988.sabry@gmail.com",
 };
